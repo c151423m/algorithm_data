@@ -1,0 +1,11 @@
+Question
+You have two arrays with integers (length = n ) stored.
+Array1 and Array2 Should be with same length and array2should be storing numbers which are squared of Array1 values.
+
+If the array 2 stores squared numbers of Array 1, return true. Else , return false.
+The order of the array should not matter 
+
+Example
+
+[1,2,4] [4,1,16] = true
+[1,5,7] [3,18,9] = false
