@@ -1,0 +1,10 @@
+Write a function called sameFrequency.
+Given two positive int, find out if the two numbers have the same frequency of digits
+
+Solution must be Time: O(n) notation 
+
+Sample input ;
+sameFrequency(182,281)//true
+sameFrequency(34,13)//false
+sameFrequency(3589578,5879385)//true
+sameFrequency(22,222)//false 

@@ -3,13 +3,12 @@ function maxSubarraySum(arr, num) {
   if ( num > arr.length){
     return null;
   }
-  //2
   var max = -Infinity;
-  //3
+  //2
   for (let i = 0; i < arr.length - num + 1; i ++){
-    //4
+    //3
     temp = 0;
-    //5
+    //4
     for (let j = 0; j < num; j++){
       temp += arr[i + j];
     }
@@ -29,5 +28,12 @@ maxSubarraySum([],4) // null
 
 
 /**
- * 1. Security for the edge case. In case the num is bigger than 
+ * 1. Security for the edge case. In case the num is bigger than the array, return false
+ * 2. for loop 
+ *  2-1 the -num +1 is to stop the loop at the final num length
+ * 3. have a temporary variable = temp 
+ * 4. For loop inside i with j and sum the numbers based on num index and store it under temp
+ * 5. If temp is bigger than max, then assign the value into max 
+ * 6. Continue the summation and assign the max number into var max 
+ * 7. return max 
  */
