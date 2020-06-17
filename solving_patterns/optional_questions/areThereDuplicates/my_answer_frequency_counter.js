@@ -2,7 +2,7 @@ function areThereDuplicates() {
 
 }
 
-console.log(areThereDuplicates(1, 2, 3));
+console.log(areThereDuplicates());
 
 /**
  * This is the frequency counter ver
