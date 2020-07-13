@@ -63,4 +63,3 @@ function mergeSort(arr) {
 
 console.log(mergeSort([10,24,76,73]));
 console.log(mergeSort([100,2499,76888,737978,2398471,1113,0,91341,435]));
-

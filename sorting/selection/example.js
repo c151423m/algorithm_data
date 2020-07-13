@@ -1,5 +1,5 @@
 // LEGACY VERSION (non ES2015 syntax)
-function sselectionSort(arr) {
+function selectionSort(arr) {
   // for [i] is for the first value
   for (var i = 0; i < arr.length; i++) {
     //assign the value i to  lowest variable
